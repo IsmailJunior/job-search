@@ -96,6 +96,7 @@ const Container = styled.div`
   height: 100vh;
   width: 100vw;
   z-index: -1;
+  }
 `
 
 const Input = styled.input`
@@ -112,6 +113,12 @@ const Input = styled.input`
   &:focus {
     outline-width: 0;
   }
+
+   @media only screen and (max-width: 600px) {
+  & {
+      width: 400px;
+  }
+}
 `
 const Wraper = styled.div`
   position: relative;
@@ -135,6 +142,10 @@ const Result = styled.ul`
   top: 50px;
   left: -1px;
   list-style: none;
+    @media only screen and (max-width: 600px) {
+  & {
+      width: 400px;
+  }
 `
 
 const Item = styled.li`
