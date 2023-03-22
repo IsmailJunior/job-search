@@ -60,7 +60,8 @@ function App ()
     if ( e.keyCode === 13 )
     {
       setShowResult(true)
-      getNews(term)
+      getNews( term )
+      return getNews
     }
   } )
 
