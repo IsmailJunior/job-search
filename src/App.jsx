@@ -28,7 +28,7 @@ function App ()
     method: 'GET',
     url: 'https://jsearch.p.rapidapi.com/search',
     params: {
-      query: 'react',
+      query: term,
       page: 1,
       num_pages: '1'
     }, 
